@@ -44,14 +44,6 @@ O layout é simples e funcional, com uma tabela que exibe:
 - CSS3
 - JavaScript (ES6+)
 - localStorage
-
-## 📂 Estrutura recomendada
-
-controle-despesas/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
+- 
 ## Imagem do projeto
 ![alt text](image.png)
