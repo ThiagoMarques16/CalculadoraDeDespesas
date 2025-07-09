@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+</head>
+<body>
+      <div class="container">
+    <h1>Calculadora de Despesas</h1>
+
+    <form id="form-despesa">
+      <input type="text" id="descricao" placeholder="Descrição" required>
+      <input type="number" id="valor" placeholder="Valor (R$)" required>
+      <select id="categoria" required>
+        <option value="">Categoria</option>
+        <option value="Alimentação">Alimentação</option>
+        <option value="Moradia">Moradia</option>
+        <option value="Transporte">Transporte</option>
+        <option value="Lazer">Lazer</option>
+        <option value="Outros">Outros</option>
+      </select>
+      <button type="submit" class="submit">Adicionar</button>
+    </form>
+
+    <div class="total">Total: R$ <span class="valorTotal">00,00</span></div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Descrição</th>
+          <th>Valor (R$)</th>
+          <th>Categoria</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody id="lista-despesas">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
