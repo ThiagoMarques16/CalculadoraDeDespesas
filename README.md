@@ -44,6 +44,6 @@ O layout é simples e funcional, com uma tabela que exibe:
 - CSS3
 - JavaScript (ES6+)
 - localStorage
-- 
-## Imagem do projeto
+
+## 💻 Imagem do projeto
 ![alt text](image.png)
